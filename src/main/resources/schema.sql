@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS dog (
+  id INT PRIMARY KEY auto_increment,
+  name VARCHAR(20) NOT NULL,
+  breed VARCHAR(20) NOT NULL,
+  origin VARCHAR(20) NOT NULL,
+  PRIMARY KEY (id)
+);
